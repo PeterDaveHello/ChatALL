@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>chatall</id>
+    <version>1.82.107</version>
+    <title>ChatALL</title>
+    <authors>Sun Zhigang</authors>
+    <owners>Sun Zhigang</owners>
+    <licenseUrl>https://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/sunner/ChatALL</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/sunner/ChatALL/main/src/assets/logo-cover.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Chat with multiple AI bots and discover the best.</description>
+    <summary>Chat with multiple AI bots and discover the best.</summary>
+    <tags>chat ai bots</tags>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    <file src="..\dist\win-unpacked\ChatALL.exe" target="tools\ChatALL.exe" />
+    <file src="..\LICENSE" target="tools\LICENSE.txt" />
+  </files>
+</package>

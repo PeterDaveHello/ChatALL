@@ -22,7 +22,8 @@
     "postuninstall": "electron-builder install-app-deps",
     "start": "electron .",
     "release": "vue-cli-service electron:build -wml --x64 --arm64",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "choco-pack": "choco pack chocolatey/chatall.nuspec"
   },
   "dependencies": {
     "@kangc/v-md-editor": "^2.3.16",

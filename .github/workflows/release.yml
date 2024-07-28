@@ -37,3 +37,12 @@ jobs:
         run: |
           export PYTHON_PATH=`which python`
           npm run release
+
+      - name: Setup Chocolatey
+        uses: chocolatey/setup-chocolatey@v1
+
+      - name: Create Chocolatey package
+        run: npm run choco-pack
+
+      - name: Publish Chocolatey package
+        run: choco push chocolatey/chatall.nupkg --source https://push.chocolatey.org/ --api-key ${{ secrets.CHOCOLATEY_API_KEY }}

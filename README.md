@@ -109,6 +109,12 @@ Download from https://github.com/sunner/ChatALL/releases
 
 Just download the \*-win.exe file and proceed with the setup.
 
+If you are using [Chocolatey](https://community.chocolatey.org/), you can also install it with:
+
+```bash
+choco install chatall
+```
+
 ### On macOS
 
 For Apple Silicon Mac (M1, M2 CPU), download the \*-mac-arm64.dmg file.
