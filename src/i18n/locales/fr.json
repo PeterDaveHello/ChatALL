@@ -170,7 +170,11 @@
     "topK": "topK",
     "topKPrompt": "Un topK de 1 signifie que le jeton sélectionné est le plus probable parmi tous les jetons dans le vocabulaire du modèle (également appelé décodage gourmand).",
     "topP": "topP",
-    "topPPrompt": "Les jetons sont sélectionnés du plus probable au moins probable jusqu'à ce que la somme de leurs probabilités égale la valeur topP."
+    "topPPrompt": "Les jetons sont sélectionnés du plus probable au moins probable jusqu'à ce que la somme de leurs probabilités égale la valeur topP.",
+    "gpt-4o": "gpt-4o",
+    "gpt-4o-mini": "gpt-4o-mini",
+    "o1": "o1",
+    "o1-mini": "o1-mini"
   },
   "claudeAi": {
     "name": "Claude"
@@ -235,6 +239,8 @@
     "gpt-4-turbo": "gpt-4-turbo",
     "gpt-4o": "gpt-4o",
     "gpt-4o-mini": "gpt-4o-mini",
+    "o1": "o1",
+    "o1-mini": "o1-mini",
     "temperature": "Température",
     "temperaturePrompt": "Une température plus élevée favorise la créativité du texte généré, mais le risque d'incohérence augmente également.",
     "temperature0": "Plus déterministe",
